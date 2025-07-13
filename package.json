@@ -1,0 +1,20 @@
+{
+  "name": "ai-junior-dev-team",
+  "version": "1.0.0",
+  "description": "AI-powered junior developer team management tool",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["ai", "development", "automation", "team-management"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1"
+  }
+}
